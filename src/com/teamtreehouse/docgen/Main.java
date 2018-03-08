@@ -6,6 +6,7 @@ import java.lang.reflect.Modifier;
 
 public class Main {
     public static void main(String[] args) {
+    /*
         // Get a class object
         Class<?> clazz = MathUtils.class;
       
@@ -28,8 +29,10 @@ public class Main {
           String modStr = Modifier.toString(mods);
           System.out.printf("\t#modifiers: %s%n", modStr);
         }
+     */
           
-        // TODO: Process the MathUtils class's annotations
+        // Process the MathUtils class's annotations
+        DocProcessor.process(MathUtils.class);
       
     }
 }
