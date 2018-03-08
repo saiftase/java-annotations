@@ -4,7 +4,7 @@ import java.awt.geom.Point2D;
 import com.teamtreehouse.docgen.Doc;
 
 @Doc(
-  desc = "Utility class for commonly used math functions",
+  desc = "Utility class for commonly used math functions"
 )
 public class MathUtils {
     private static final Double EPSILON = 0.0001;
